@@ -49,6 +49,7 @@ public class AppRestController {
 			System.out.println(SecurityContextHolder.getContext().getAuthentication().getName());
 		}
 		else{
+			System.out.println(SecurityContextHolder.getContext().getAuthentication().getName());
 		}
 
 		List<User> listUsers = userRepo.findAll();
